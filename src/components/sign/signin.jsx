@@ -22,7 +22,7 @@ const Reg = ({setIsNewUser, isNewUser}) => {
                </div> 
                <div className="flex justify-between items-center">
                 <p className="p-3">Already have an account</p>
-                <p className="text-green-200 cursor-pointer" onClick={()=>setIsNewUser(!isNewUser)}>Sign In</p>
+                <p className="text-green-200 cursor-pointer" onClick={()=>setIsNewUser(!isNewUser)}>Login</p>
                </div>   
             </div>
 

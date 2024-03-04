@@ -13,13 +13,13 @@ const Login = ({setIsNewUser, isNewUser, isLoggedIn, setisLoggedIn}) => {
                  <input type="text " placeholder="PASSWORD" name="password" className="p-2 rounded-lg bg-black m-2 border-2" />
                </form>
                <div className="w-full px-5 flex  justify-center items-center">
-                <button className="bg-green-500 text-black p-2 mt-5 w-full rounded-2xl"><Link href='/response'>SUBMIT</Link></button>
+                <button className="bg-green-500 text-black p-2 mt-5 w-full rounded-2xl" onClick={()=>setisLoggedIn(!isLoggedIn)}><Link href='/response'>SUBMIT</Link></button>
                </div>
                <div className="w-full p-5 flex justify-between items-center">
                 <p>Dont have an account?</p>
                 <h2 onClick={()=>{
                  setIsNewUser(!isNewUser)
-                }} className="cursor-pointer text-green-200">Login</h2>
+                }} className="cursor-pointer text-green-200">Sign In</h2>
                </div>    
             </div>
 
