@@ -17,7 +17,6 @@ const fakefemaleusers=()=>{
      }
 }
 const datagenerator = (length)=>{
-    console.log(length)
     let users = []
     for(let i=0; i<length; i++){
      users.push(fakemaleusers())

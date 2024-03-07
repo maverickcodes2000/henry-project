@@ -1,4 +1,5 @@
 "use server"
+import { admindata } from "./Admin/admindata"
 
 export const handlereg = ( formData)=>{
     const firstname = formData.get('firstname')
@@ -24,3 +25,13 @@ export const handlelogin =(formData)=>{
         
     }
 }
+export const handleadminlogin =(prevstate,formData)=>{
+    const email = formData.get('email')
+    const password = formData.get('password')
+    try {
+        return {msg:'sucessfully registered'}
+    } catch (error) {
+       console.log(error) 
+    }
+}
+
