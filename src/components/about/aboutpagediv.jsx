@@ -3,7 +3,7 @@ const Aboutpage=()=>{
               <h2 className=" text-center text-3xl mb-10">About Us</h2>
               <div className=" flex flex-col justify-center items-center  md:justify-between md:items-center md:flex-row">
                <div className=" flex flex-col md:flex-row justify-center  items-center p-6 space-y-4">
-                    <h2 className="flex flex-wrap text-center w-[50%] text-bold p-3 text-2xl">Welcome to your one stop innovative solution
+                    <h2 className="flex flex-wrap text-center w-[90%] md:w-[50%] text-bold p-3 text-2xl">Welcome to your one stop innovative solution
                         for all things adoption related. Over the years
                         we have paired people like you with amazing children,
                         helping them acheive a happy home.
