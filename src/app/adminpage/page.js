@@ -28,17 +28,17 @@ const adminpage = () => {
               </div>
               <div className="p-5 flex space-x-2 justify-center items-center w-[95%]">
                 <div className="bg-gray-300 min-w-[100px] p-2 min-h-[50px]  md:min-w-[250px] md:min-h-[100px] rounded-2xl flex justify-center items-center  space-x-5">
-                  <h2>Registered kids</h2>
+                  <h2 className="text-gray-900">Registered kids</h2>
                   <div className="w-[40px] h-[40px] flex justify-center  border-2 rounded-full border-black items-center">
-                     <p className="text-xl font-bold">{state.kids.length}</p>
+                     <p className="text-xl text-gray-900 font-bold">{state.kids.length}</p>
                   </div>  
                 </div>
                 <div className="bg-gray-300 min-w-[100px]  p-2 min-h-[50px] md:min-w-[250px] md:min-h-[100px] rounded-2xl flex justify-center items-center cursor-pointer space-x-5">
                   
-                  <h2>Add kids</h2>
+                  <h2 className=" text-gray-900 ">Add kids</h2>
                   <div className="w-[40px] h-[40px] flex justify-center  border-2 rounded-full border-black items-center">
                     <a href="#addchild">
-                      <p className="text-3xl">+</p>
+                      <p className=" text-3xl">+</p>
                     </a>
                      
                   </div>  
